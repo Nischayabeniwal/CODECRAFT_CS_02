@@ -3,6 +3,7 @@
 A simple yet powerful tool for encrypting and decrypting images using AES encryption, with a user-friendly graphical interface built in Tkinter.
 
 ![App Screenshot](assets/screenshot.png)
+
 *Example: Main GUI window*
 
 ## Features
@@ -41,19 +42,27 @@ CODECRAFT_CS_02
    pip install -r requirements.txt
    ```
 
-## Usage
+## How to Use
 
-1. **Run the application:**
+### 1. Using the `.exe` File
+
+1. Download the latest `Image_Encryption_Tool.exe` from dist/.
+2. Double-click to run.  
+   _No Python installation required!_
+
+### 2. **Run the src/gui.py:**
    ```
    python src/gui.py
-   ```
 
-2. **Encrypt an image:**
+   ```
+## Usage
+
+1. **Encrypt an image:**
    - Click "Select Image" and choose your image file.
    - Enter a password.
    - Click "Encrypt Image" and choose where to save the encrypted file.
 
-3. **Decrypt an image:**
+2. **Decrypt an image:**
    - Click "Select Image" and choose your `.enc` file.
    - Enter the password used for encryption.
    - Click "Decrypt Image" and choose where to save the decrypted image.
